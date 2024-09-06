@@ -1,6 +1,6 @@
 ## Find Games
 
-**Um buscador simples de jogos, criado durante a Imersão Dev_.**
+**Um buscador simples de jogos, criado durante a Imersão Dev da Alura com o Gemini.**
 
 ### Descrição
 Este projeto tem como objetivo criar uma aplicação web simples que permite aos usuários pesquisar por jogos, filtrando por nome, descrição e tags. Os resultados da pesquisa são exibidos em uma interface intuitiva, com informações básicas sobre cada jogo, como título, descrição e link para o trailer.
