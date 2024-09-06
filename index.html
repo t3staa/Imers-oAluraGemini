@@ -1,0 +1,30 @@
+<!DOCTYPE html> <!--Para gerar a estrutura base do codigo, escreva "!" e de Enter -->
+<html lang="pt-br">
+<head> <!-- Metadados, Informações para o navegador -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Tag que linka o css -->
+    <title>ImersãoDev_</title>
+</head>
+<body> <!-- Informações para o corpo da pagina -->
+    <header> <!-- Cabeçalho -->
+        <h1>Find Games</h1>
+    </header>
+    <main> <!-- Conteúdo Principal -->
+        
+        <section> <!-- Seção -->
+            <input type="text" placeholder="Digite o nome do jogo ou o estilo do jogo [ex: ação]" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+
+        </section>
+    </main>
+    <footer> <!-- Rodapé -->
+        <p>2024 - Imersão Dev_ Leonardo Testa. Todos os direitos reservados</p>
+        <p>Entre em contato pelo email: testa.leo@outlook.com</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script> <!-- Tag para linkar o js, lembrando que é sempre depois do footer e dentro do body-->
+</body>
+</html>
